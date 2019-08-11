@@ -6,15 +6,15 @@ Language Translations:
 de-German
 la-Latin
 fr-French
-es-Spanish'''
-
+es-Spanish
+get your key from yandex.com'''
+from config import *
 import speech_recognition as sr
 import requests
 import json
 import sys 
 
-
-KEY = 'trnsl.1.1.20190406T031103Z.818a2060024ab0d3.88840fa03a5aa7b017ccd07e681b2657084fdb12'
+#KEY=' '
 API_BASE = 'https://translate.yandex.net/api/v1.5/tr.json/translate'
 
 r = sr.Recognizer()
