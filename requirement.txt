@@ -1,0 +1,7 @@
+SpeechRecognition
+tkinter
+requests
+json
+sys
+
+
